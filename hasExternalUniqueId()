@@ -1,0 +1,3 @@
+public boolean hasExternalUniqueId() {
+    return iExternalUniqueId != null && !iExternalUniqueId.isEmpty();
+}
