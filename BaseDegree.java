@@ -17,7 +17,7 @@
  * limitations under the License.
  * 
 */
-package org.unitime.timetable.model.base;
+package org.unitime.timetable.model.base; 
 
 import java.io.Serializable;
 
