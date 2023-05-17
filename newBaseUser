@@ -81,4 +81,7 @@ public abstract class BaseUser implements Serializable {
 			"\n	Username: " + getUsername() +
 			"]";
 	}
+	public boolean hasExternalId() {
+        	return iExternalUniqueId != null && !iExternalUniqueId.isEmpty();
+}
 }
