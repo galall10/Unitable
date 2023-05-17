@@ -141,4 +141,9 @@ public abstract class BaseWaitList implements Serializable {
 			"\n	WaitListedTimeStamp: " + getWaitListedTimeStamp() +
 			"]";
 	}
+	
+	public boolean hasEnrollment() {
+	    return iEnrollment != null && !iEnrollment.isEmpty();
+	}
+	
 }
