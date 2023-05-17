@@ -79,4 +79,8 @@ public abstract class BaseDegree extends RefTableEntry implements Serializable {
 			"\n	UniqueId: " + getUniqueId() +
 			"]";
 	}
+	
+	public boolean hasExternalUniqueId() {
+		return iExternalUniqueId != null && !iExternalUniqueId.isEmpty();
+	}
 }
